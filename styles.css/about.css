@@ -1,0 +1,554 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    max-width: 1920px;
+    background-color: #f3f3f3;
+    overflow-x: hidden;
+    
+}
+.bacgraundImg {
+    background-image: url(/img/city.jpg);
+    width: 100%;
+    height: 856px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -125px;
+    
+}
+.aboutIframe{
+
+    width: 100%;
+    height: 856px;
+    border: none;
+   
+}
+.aboutSection {
+    max-width: 1920px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.aboutSection h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: #1A1A1A;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+.aboutSectionText {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #1A1A1A;
+    max-width: 800px;
+    text-align: center;
+    margin-bottom: 40px;
+    line-height: 1.6;
+}
+.aboutCards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width: 1112px;
+    gap: 40px;
+}
+
+.aboutCard{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.aboutCardText {
+    font-family: "Roboto", sans-serif;
+    font-size: 21px;
+    font-weight: 500;
+    color: #1A1A1A;
+    margin-bottom: 20px;
+}
+.aboutCardTextTwo {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #1A1A1A;
+    max-width: 350px;
+    text-align: center;
+    line-height: 1.5;
+}
+.aboutStats {
+    display: flex;
+    width: 1265px;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.aboutStatsContent{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 150px;
+}
+.aboutStatsNumbers {
+    display: flex;
+    gap: 40px;
+}
+.aboutStatsNumber {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: #1A1A1A;
+}
+.square {
+    font-size: 25px;
+    font-family: "Roboto", sans-serif;
+}
+.Happy {
+    margin-top: 10px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+}
+.quotes-end-1{
+    font-size: 30px;
+    color: #000000;
+    margin-top: 20px;
+}
+.aboutStatsReviews {
+    margin-top: 35px;
+}
+.aboutStatsReviewBox {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 50px;
+    
+    
+}
+.aboutStatsReviewBox img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+}
+.aboutStatsReviewBoxTop{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    width: 436px;
+    height: 250px;
+    background-color: white;
+}
+.aboutStatsReviewBoxTopLeft{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 20px;
+}
+.clientsName{
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #1A1A1A;
+    margin-bottom: 5px;
+    width: 168px;
+}
+.clientsProfession{
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #1A1A1A;
+    width: 168px;
+}
+.fa-quote-right {
+    font-size: 30px;
+    color: #000000;
+    
+}
+.customerFeedback{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #1A1A1A;
+    margin-top: 20px;
+    line-height: 1.5;
+}
+.clientsAboutUsAll {
+    padding-top: 200px;
+    width: 100%;
+    height: auto;
+    background-color: #FFF8F6;
+    margin: auto;
+    margin-top: 100px;
+}
+.clientsAboutUsBox {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 300px;
+}
+.clientsAboutUsBoxL {
+    width: 500px;
+}
+.clientsAboutUsBoxLText {
+    font-size: 40px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    
+
+}
+
+.clientsAboutText{
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #1A1A1A;
+    margin-top: 20px;
+    line-height: 1.5;
+}
+.clientsAboutScale {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 40px;
+}
+.clientsAboutM {
+   
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.clientsAboutM p:first-child{
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #1A1A1A;
+    line-height: 1.5;
+}
+.clientsAboutM p:last-child {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.clientsAboutR {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 15px;
+
+}
+.clientsAboutR p:first-child {
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.clientsAboutR p:last-child {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.fa-star {
+    color: gold;
+    font-size: 10px;
+}
+.clientsAboutUs{
+    width: 500px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.clientsAboutUsR {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.fa-chevron-left {
+   font-size: 20px;
+}
+.fachevronleft {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    border: solid black 2px;
+    border-radius: 20px;
+    padding: 10px 30px;
+    
+}
+.fa-chevron-right{
+    font-size: 20px;
+}
+.fachevronRight{
+     display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    border: solid black 2px;
+    border-radius: 20px;
+    padding: 10px 30px;
+    
+
+}
+.clientsAboutUsIcons{
+    display: flex;
+    gap: 10px;
+}
+.clientsAboutUsName {
+    font-size: 21px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.clientsAboutUsProfession{
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.clientsAboutUsFeedback {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.leadingCompanies {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.leadingCompaniesIcon {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    margin-top: 40px;
+}
+.leadingCompanies p:first-child{
+    font-size: 17px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.fa-amazon {
+    font-size: 30px;
+}
+.amd {
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    line-height: 1.5;
+}
+.cisco {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fa-chart-simple {
+    font-size: 20px;
+   
+}
+.simple-two {
+    transform: scaleX(-1);
+}
+.cisco p {
+    font-size: 17px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    line-height: 1.5;
+
+}
+.fa-location-pin {
+    font-size: 17px;
+    
+}
+.dropcam {
+    display: flex;
+    align-items: center;
+}
+.dropcam p {
+    font-size: 17px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    line-height: 1.5;
+
+}
+.logitech span {
+    font-size: 17px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    line-height: 1.5;
+}
+
+.Spotify {
+    display: flex;
+    align-items: center;
+}
+.Spotify p {
+    font-size: 17px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    line-height: 1.5;
+
+
+}
+.fa-spotify {
+    font-size: 17px;
+}
+.Register {
+    max-width: 1920px;
+}
+.RegisterBoxAll{
+    margin: auto;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.RegisterBox {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.RegisterBox p:first-child{
+    width: 400px;
+    font-size: 40px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+}
+.RegisterBox p:nth-child(2) {
+    width: 400px;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+
+}
+.RegisterBox a {
+    
+    width: 180px;
+    height: 50px;
+    border: solid 2px ;
+    padding: 11px 20px;
+    border-radius: 30px;
+    text-align: center;
+    color: #000000;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.ExpertsAll {
+    margin: auto;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 170px;
+
+
+}
+.teamOfExperts {
+    font-size: 40px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.ExpertsText {
+    font-size: 17px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+
+}
+.expertsBoxAll {
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+}
+.expertsBox img {
+    width: 328px;
+    height: 397px;
+    object-fit: cover;
+    border-radius: 20px;
+
+}
+.expertsBox {
+    width: 100%;
+}
+.expertsName {
+    font-size: 21px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+
+}
+.expertProfession {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    font-size: 15px;
+
+}
+.RegisterIcon{
+    margin-top: 150px;
+}
+.spaceCompanies {
+    width: 350px;
+    font-size: 17px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+
+}
+.ExpertsIcon {
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.footer {
+    width: 100%;
+    height: 730px;
+    margin-top: 100px;
+}

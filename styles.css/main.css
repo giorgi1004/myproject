@@ -1,0 +1,412 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 1920px;
+    background-color: #f3f3f3;
+    
+}
+.hederIfrome {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 856px;
+    border: none;
+    margin-bottom: 20px;
+}
+.allHomeBox {
+    max-width: 1840px;
+    width: 95%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 131px;
+    text-align: center;
+}
+h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #020202;
+    margin-bottom: 50px;
+}
+.homeBox {
+    width:521px;
+    height: 518px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    position: relative;
+    
+}
+.homeBox img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.homeBoxInfo{
+    
+    max-width: 470px;
+    width: 100%;
+    height: 138px;
+    background-color: white;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+}
+.homeBoxText{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.homeBoxText p {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #020202;
+}
+.homeBoxText span {
+    margin-top: 10px;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #1A1A1A;
+}
+.fa-location-dot {
+    font-size: 18px;
+}
+.homeBoxIcons {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.homeBoxIcons span:first-child{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #EB664E;
+}
+.homeBoxes{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+.room{
+    padding: 0 10px;
+    color: black; 
+}
+.homeBoxes1{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.SeeAllListing{
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    border: 2px solid black;
+    background-color: white;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 58px;
+}
+
+.clientsImfo{
+    max-width: 1920px;
+    width: 100%;
+    height: 1170px;
+    margin: 0 auto;
+    margin-top: 131px;
+    text-align: center;
+    background-color: #1F4B43;
+    border-radius: 20px;
+}
+.clientsContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 165px;
+    padding-top: 175px;
+
+}
+.clientsImage img{
+    width: 630px;
+    height: 630px;
+    object-fit: cover;
+    
+}
+.totalClient img{
+    width: 254px;
+    height: 100px;
+    object-fit: cover;
+    
+}
+.clientsImage {
+    position: relative;
+}
+.totalClient {
+    position: absolute;
+    left: 25px;
+    top: 25px; 
+}
+.clientsTexts{
+    width: 616px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.clientsTexts p:first-child{
+    width: 356px;
+    height: 104px;
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    text-align: left;
+    line-height: 50px;
+}
+
+.clientsTexts p{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    text-align: left;
+   line-height: 40px;
+}
+.LearnMore {
+    width: 150px;
+    height: 50px;
+    border-radius: 12px;
+    border: none;
+    background-color: #E7C873;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.clientsImfoBox{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 70px;
+}
+.clientsImfoBox span{
+    font-size: 40px;
+    color: #E7C873;
+}
+.clientsImfoBox p{
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+    color: white;
+    margin-top: 20px;
+}
+.sellInfo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 200px;
+    margin-top: 196px;
+}
+.sellInfo img{
+    width: 837px;
+    height: 834px;
+    margin-top: 100px;
+    border-radius: 20px;
+}
+
+.sellTexts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+.sellText{
+    font-family: "Roboto", sans-serif;
+    color: #020202;
+    font-size: 40px;
+    width: 350px;
+    height: 104px;
+    font-weight: 500;
+}
+.findHouse {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    
+    gap: 10px;
+}
+.findHouseText p:first-child{
+    font-family: "Roboto", sans-serif;
+    color: #1A1A1A;
+    font-size: 21px;
+    font-weight: 500;
+    line-height: 25px;
+    
+}
+
+.fa-house {
+     font-size: 37px;
+}
+.findHouseText p{
+    font-family: "Roboto", sans-serif;
+    color: #1A1A1A;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 350px;
+    
+}
+.fa-handshake {
+    font-size: 37px;
+}
+.fa-key {
+    font-size: 37px;
+}
+.articlesAndNews{
+    max-width: 1920px;
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+h3{
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    color: #020202;
+    margin-bottom: 50px;
+}
+.news{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #1A1A1A;
+    margin-bottom: 40px;
+}
+.articlesAndNews img {
+    width: 328px;
+    height: 217px;
+    border-radius:  20px 20px 0 0;
+    margin-top: 0px;
+    object-fit: cover;
+
+}
+.articleBox{
+    width: 328px;
+    height: 387px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.articleText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 10px;
+}
+.articleBoxes{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.articleText p:first-child{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    color: #3D3E3F;
+}
+.articleText p {
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    color: #020202;
+    text-align: center;
+    margin-top: 10px;
+}
+.articleText a{
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #1A1A1A;
+    text-decoration: none;
+}
+.PopularMarkets{
+    max-width: 1920px;
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    text-align: center;
+    margin-top: 66px;
+}
+h4{
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    color: #020202;
+    margin-bottom: 50px;
+}
+.PopularMarkets p {
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: #1A1A1A;
+    margin-bottom: 40px;
+}
+.PopularMarkets a {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #1A1A1A;
+    text-decoration: none;
+    border: solid 1px black;
+    border-radius: 50px;
+    padding: 10px 20px;
+}
+.MarketsLinks {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+.footerIFrome {
+    max-width: 1920px;
+    width: 100%;
+    height: 779px;
+    background-color: #1F4B43;
+    border-radius: 20px;
+}

@@ -1,0 +1,48 @@
+@media only screen and (max-width:1440px) {
+    .ExclusiveProperties {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+}
+@media only screen and (max-width:1024px) {
+.CitiesBoxs {
+    display: flex;
+    flex-direction: column;
+}
+
+.FeaturedCategoriesBoxs{
+    display: flex;
+    flex-direction: column;
+}
+.HomeBoxS {
+    height: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+}
+@media only screen and (max-width:480px) {
+    .ForSaleFeaturedAll {
+        width: 100%;
+    }
+    .ExclusivePropertiesR img {
+        width: 100%;
+    }
+    .RoomM {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .bacgraundtextN1 {
+        width: 100%;
+    }
+
+}
+/* *{
+    outline: 4px solid green !important;
+} */

@@ -1,0 +1,171 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    max-width: 1920px;
+    background-color: #f3f3f3;
+    
+    
+}
+.bacgraundImg {
+    background-image: url(/img/city.jpg);
+    width: 100%;
+    height: 856px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -125px;
+    
+}
+header{
+    max-width: 1840px;
+    width: 95%;
+    height: 82.75px;
+    border-radius: 80px;
+    margin: 0 auto;
+    
+}
+.bestHomes{
+    width: 100%;
+    height: 856px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 35px;
+}
+.Enjoy {
+    font-size: 60px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+
+}
+.discounts {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+.bestHomesFrom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.KeyywordSearch {
+    width: 930px;
+    height: 100px;
+    background-color: white;
+    display: flex;
+    background-color: white;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 25px;
+
+}
+.SaleRent {
+    display: flex;
+    width: 200px;
+    height: 50px;
+    
+}
+.SaleRent a{
+    width: 100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    
+}
+.Sale {
+    border-top-left-radius: 20px;
+}
+.Rent {
+    border-top-right-radius: 20px;
+
+}
+.Sale:focus {
+    background-color: white;
+    color: black;
+}
+.Rent:focus{
+    background-color: white;
+    color: black;
+}
+.Keyyword {
+    display: flex;
+    flex-direction: column;
+    gap: 20px   ;
+
+}
+.Keyyword label {
+    font-size: 17px;
+    color: #969696;
+    font-family: "Roboto", sans-serif;
+}
+.Type {
+    display: flex;
+    flex-direction: column;
+    gap: 20px ;
+}
+.Type label {
+    font-size: 17px;
+    color: #969696;
+    font-family: "Roboto", sans-serif;
+
+}
+.Keyyword input {
+    font-size: 20px;
+    border: none;
+    border-bottom: 20px;
+    
+
+    
+}
+.Keyyword input:focus {
+    outline: none;
+}
+.Type input{
+    font-size: 20px;
+    border: none;
+    border-bottom: 20px;
+    
+
+}
+.Type input:focus {
+    outline: none;
+}
+.Filter {
+        
+    border: solid 1px black;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Filter span {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+
+}
+.Btn {
+    width: 108px;
+    height: 50px;
+    background-color: black;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+.FilterBtn {
+    display: flex;
+    gap: 10px;
+}
+

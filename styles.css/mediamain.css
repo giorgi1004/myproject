@@ -1,0 +1,156 @@
+@media (max-width: 1536px) {
+    .sellInfo{
+     display: flex;
+     flex-direction: column;
+     align-content: center;
+     align-items: center;
+    }
+    .articleBoxes {
+    gap: 200px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    }
+
+
+
+
+}
+@media only screen and (max-width:1440px) {
+
+    .articleBoxes {
+        width: 100%;
+        display: flex;
+        
+    }
+    .footerIFrome {
+        padding: 30px;
+        height: 800px;
+    }
+    
+
+}
+@media screen and (max-width:1366px) {
+
+    .clientsImfo {
+        padding: 100px 0px;
+        height: 100%;
+    }
+    .articleBoxes  {
+
+    display: flex;
+    justify-content: space-around;
+    gap: 60px ;
+
+    }
+    .footerIFrome {
+        padding: 30px;
+        height: 800px;
+    }
+}
+
+@media only screen and (max-width:1280px) {
+    .articleBoxes {
+        width: 100%;
+        display: flex;
+        gap: 20px;
+    }
+    .footerIFrome {
+        padding: 30px;
+        height: 800px;
+    }
+
+}
+@media only screen and (max-width:1024px) {
+    .articleBoxes {
+        width: 100%;
+        display: flex;
+        gap: 20px;
+    }
+    .homeBoxes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .homeBoxes1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .footerIFrome {
+        padding: 30px;
+        height: 800px;
+    }
+
+}
+
+
+@media only screen and (max-width:768px) {
+    .homeBoxes1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+    }
+    .sellInfoImg {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+    }
+    .sellInfo img {
+        width: 100%;
+    }
+    .footerIFrome {
+        padding: 30px;
+    }
+    .footerIFrome {
+        padding: 30px;
+        height: 800px;
+    }
+
+}
+@media only screen and (max-width:480px) {
+        .articleBoxes {
+            gap: 20px;
+        }
+    .search-box {
+        width: 90%;
+    }
+    .homeBoxes {
+        width: 100%;
+    }
+    .homeBox {
+        width: 90%;
+    }
+    .homeBoxes1 {
+        width: 100%;
+    }
+    .clientsImage img  {
+        width: 100%;
+    }
+    .clientsTexts {
+        width: 90%;
+    }
+    .clientsImfoBox {
+    display: flex;
+    flex-direction: column;
+    }
+    .sellInfo img {
+            width: 100%;
+            height: 500px;
+    }
+    .footerIFrome {
+        padding: 30px;
+        height: 800px;
+    }
+
+
+}

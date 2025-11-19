@@ -1,0 +1,289 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+footer{
+    max-width: 1920px;
+    width: 100%;
+    
+    height: 730px;
+    background-color: #1F4B43;
+    border-radius: 20px;
+    
+}
+.footerLogo{
+    width: 90%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.footerIcons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 34px;
+}
+.footerLogoS{
+    width: 150px;
+    height: auto;
+    color: #ffffff;
+}
+.footerIcons p {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+}
+.fa-facebook-f , .fa-twitter, .fa-instagram, .fa-linkedin-in {
+
+    font-size: 15px;
+    color: white;
+}
+.divider {
+    width: 90%;
+    border-top: 1px solid rgba(255, 255, 255, 0.47);
+    margin: auto;
+    
+}
+.footerInfo{
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 0 auto;
+    gap: 40px;
+    margin-top: 90px;
+    margin-bottom: 100px;
+}
+.footerSubscribe {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 350px;
+}
+
+form{
+    width: 369px;
+    height: 57px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    
+}
+form input{
+    width: auto;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    padding: 0 20px;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    position: relative;
+    outline: none;
+}
+
+.form input:focus{
+    outline: none;
+}
+
+.subscribe {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    color: white;
+    width: 370px;
+
+}
+.sub {
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FFFFFF78;
+}
+
+form button{
+    width: 110px;
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    background-color: #E7C873;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    position: absolute;
+    right: 0px;
+    text-align: center;
+}
+.Discover {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.Discover p{
+    font-family: "Roboto", sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    color: #FFFFFF78;
+    line-height: 30px;
+}
+.discoverCity {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footerInfo a{
+    width: 100%;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+    color: white;
+    
+}
+.quickLinks {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.quickLinks p{
+    font-family: "Roboto", sans-serif;
+    font-size: 19px;
+    font-weight: 700;
+    color: #FFFFFF78;
+}
+.quickLinks .links {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    width: 100%;
+}
+.contactUs {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.contactUs p{
+    font-family: "Roboto", sans-serif;
+    font-size: 19px;
+    font-weight: 700;
+    color: #FFFFFF78;
+}
+.contactUs a {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+    color: white;
+    width: 100%;
+}
+.contactUs div{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+.ourAddress {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.ourAddress p{
+    font-family: "Roboto", sans-serif;
+    font-size: 19px;
+    font-weight: 700;
+    color: #FFFFFF78;
+}
+.ourAddress a {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    font-weight: 200;
+    color: white;
+    width: 100%;
+}
+.ourAddress div{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+.app {
+   
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.getApp{
+    font-family: "Roboto", sans-serif;
+    font-size: 19px;
+    font-weight: 700;
+    color: #FFFFFF78;
+    margin-bottom: 20px;
+}
+/* .appStore {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    align-items: center;
+
+    
+} */
+.appStore1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    align-items: center;
+    
+
+}
+.appStore2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    align-items: center;
+    
+
+}
+
+.fa-apple {
+    font-size: 30px;
+    color: white;
+    margin-right: 10px;
+}
+.appleStoreText {
+    color: white;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+}
+
+.fa-play {
+    font-size: 30px;
+    color: white;
+    margin-right: 10px;
+   
+}
+.copyright {
+    width: 90%;
+    height: 50px;
+    color: white;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+}

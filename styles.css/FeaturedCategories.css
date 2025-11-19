@@ -1,0 +1,570 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    max-width: 1920px;
+    background-color: #f3f3f3;
+}
+.headerFC {
+    width: 100%;
+    height: 856px;
+    border: none;
+}
+.Cities {
+    width: 100%;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.Citie {
+    font-size: 40px;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+.CitieText {
+    font-size: 16px;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    margin-top: 10px;
+}
+.CitiesBoxs {
+    display: flex;
+}
+.CitiesBoxs {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+}
+.CitiesBox{
+    width: 256px;
+    height: 318px;
+    position: relative;
+    border-radius: 10px;
+
+}
+.CitiesBox img {
+    width: 256px;
+    height: 318px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.CitiesBoxName {
+    
+    position: absolute;
+    top:  20px;
+    left: 20px;
+}
+.CitiesBoxName p:first-child{
+    
+    font-size: 19px;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+
+}
+.CitiesBoxName p:last-child{
+    font-size: 15px;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+
+
+}
+.FeaturedCategories {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 160px;
+   
+
+}
+.FeaturedCategoriesBoxs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:40px;
+    margin-top: 20px;
+}
+.FeaturedCategoriesBox {
+    width: 450px;
+    height: 460px;
+    position: relative;
+    background-color: white;
+    border-radius: 20px;
+}
+.FeaturedCategoriesBox img {
+    width: 450px;
+    height: 290px;
+    border-radius: 20px;
+    object-fit: cover;
+
+}
+.Pool {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.ApartmentInfo {
+    margin-top: 19px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 10px;
+}
+.Pool p{
+    font-size: 19px;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+
+    
+}
+.ApartmentAddress {
+    
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+   
+}
+.ApartmentAddress .fa-location-dot {
+    color: black;
+    font-size: 20px;
+}
+
+.ApartmentAddress p {
+    font-size: 14px;
+    color: #000000;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+
+}
+
+.ApartmentRoom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.ApartmentRoom p {
+    font-size: 14px;
+    color: #000000;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+
+}
+.RoomIcon {
+    display: flex;
+    gap: 10px;
+}
+.ForSale {
+    width: 78px;
+    position: absolute;
+    top:20px;
+    left: 10px;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #1F4B43;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+
+}
+.Pool .kg {
+    color: #EB664E;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+
+}
+
+.Featured {
+    display: flex;
+    position: absolute;
+    top:20px;
+    left: 90px;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #E7C873;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    
+    
+}
+.Categories {
+    text-align: center;
+}
+.Categories p{
+font-size: 40px;
+font-family: "Roboto", sans-serif;
+font-weight: 400;
+color: #000000;
+    
+}
+.FeaturedCategoriesS {
+    width: 100%;
+    height: auto;
+}
+.View{
+    text-align: center;
+}
+.View p{
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #000000;
+    margin-top: 20px;
+
+
+}
+.ExclusiveProperties {
+    margin-top: 189px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+     background-color: #2D3A4F;
+     width: 100%;
+     height: 1160px;
+}
+.text {
+    height: 100px;
+    width: 100%;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 170px;
+} 
+.textSS{
+    font-size: 17px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    color: #000000;
+    margin-top: 20px;
+
+}
+.texts {
+    font-size: 36px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    color: #000000;
+    margin-top: 20px;
+
+}
+.Villa {
+    background-image: url(/img/villa.jpg);
+    width: 681px;
+    height: 700px;
+    border-radius: 20px;
+    position: relative;
+}
+.ForSaleFeatured {
+    position: absolute;
+    display: flex;
+}
+.ForSaleFeatured  {
+   
+    position: absolute;
+    left: 10px;
+    top: 0px;
+}
+.ForSaleSecond{
+    width: 80px;
+    display: flex;
+    position: absolute;
+    top:20px;
+    left: 10px;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #1F4B43;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+
+}
+.FeaturedSecond {
+    display: flex;
+    position: absolute;
+    top:20px;
+    left: 110px;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #E7C873;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+
+}
+.VillaIcon {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 530px;
+    padding-left: 50px;
+    gap: 30px;
+    align-items: flex-start;
+}
+.VillaIconBot {
+    display: flex;
+    align-items: center;
+}
+.VillaText {
+    font-size: 26px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: white;
+}
+.fa-location-dot {
+    color: white;
+}
+.VillaIconBot p{
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: white;
+    
+}
+.VillaIconS {
+    display: flex;
+    gap: 30px;
+}
+.VillaIconsText {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: white;
+    padding-right: 30px;
+
+}
+.fa-bed {
+    font-size: 16px;
+    
+    color: white;
+
+}
+.faBed {
+    display: flex;
+    gap: 10px;
+}
+.faBed p {
+    color: white;
+}
+.faBath {
+    display: flex;
+    gap: 10px;
+    color: white;
+
+}
+.faBath p {
+    color: white;
+}
+.faCopy {
+    display: flex;
+    gap: 10px;
+    color: white;
+
+}
+.faCopy p {
+    color: white;
+
+
+}
+.ForSaleFeaturedAll {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 30px;
+   
+}
+.ExclusivePropertiesR {
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+}
+.ExclusivePropertiesR img {
+    width: 685px;
+    height: 334px;
+    border-radius: 20px;
+}
+.RoomM {
+    display: flex;
+    gap: 32px;
+}
+.RoomM img {
+    width: 325px;
+    height: 331px;
+    border-radius: 30px;
+    object-fit: cover;
+}
+.Box {
+    width: 325px;
+    height: 331px;
+    border-radius: 30px;
+    background-color:#E7C873;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    align-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+.Properties {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+.Properties p {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+
+}
+.textBox {
+    width: 70%;
+    height: 50px;
+    text-align: left;
+}
+.textBox p {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+}
+.Box span{
+    font-size: 40px;
+    font-family: "Roboto", sans-serif;
+}
+.Btn {
+    border: solid 2px white;
+    padding: 10px 10px;
+    border-radius: 50px;
+    background-color: white;
+}
+.fa-arrow-right-long {
+    font-size: 10px;
+    color: rgb(0, 0, 0);
+}
+.Articles {
+    display: flex;
+    margin-top: 100px;
+    width: 100%;
+    height: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.RecentArticles {
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 75%;
+}
+.RecentText {
+    font-size: 40px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+}
+.ArticlesText {
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+
+}
+.HomeBoxS {
+    
+        
+    width: 1430px;
+    height: 417px;
+    gap: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 30px;
+}
+.HomeBox {
+    width: 328px;
+    height: 387px;
+    background-color: white;
+    border-radius: 20px;
+
+}
+.HomeBox img {
+    width: 328px;
+    height: 217px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+
+}
+.HomeBoxTexts {
+    margin-top: 15px;
+    text-align: center;
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.HomeBoxTexts a{
+    color: #000000;
+    font-size: 16px;
+}
+.HousingText {
+    width: 240px;
+    height: 51px;
+    font-size: 17px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+
+
+}
+.ApartmentText {
+       
+   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    font-size: 17px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    color: #3D3E3F;
+
+
+}
+.footerIFrome {
+    width: 100%;
+    height: 730px;
+    margin-top: 38px;
+}

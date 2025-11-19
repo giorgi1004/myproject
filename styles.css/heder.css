@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 1920px;
+    background-color: #f3f3f3;
+    
+}
+.background-image{
+    background-image: url(/img/city.jpg);
+    width: 100%;
+    height: 856px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -125px;
+    
+}
+
+
+header{
+    max-width: 1840px;
+    width: 95%;
+    height: 82.75px;
+    border-radius: 80px;
+    margin: 0 auto;
+    
+}
+nav{
+    
+    height: 100%;
+    width: 100%;
+    margin-top: 42px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+    position: relative;
+    border-radius: 50px;
+    background-color: hwb(0 100% 0%);
+}
+
+
+.nav-links{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+.nav-links a{
+    color: #1A1A1A;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    
+    
+}
+
+.navIcons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+}
+.navIcons a{
+    color: #1A1A1A;
+    font-size: 20px;
+    
+}
+
+.addProperty a{
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: 10px 20px;
+}
+.fa-circle-user{
+    font-size: 35px;
+}
+.search-box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    
+}
+.search-box h1{
+    font-family: "Roboto", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: #1F4B43;
+    margin-bottom: 20px;
+}
+.search-box p{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #1F4B43;
+    margin-bottom: 40px;
+}
+.search-box form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+.search-box input{
+    width: 700px;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    padding: 0 20px;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    position: relative;
+}
+
+.search-box input:focus{
+    outline: none;
+}
+.search-box button{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: #1F4B43;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+}
+.mediaNav {
+    display: none;
+}
+
+

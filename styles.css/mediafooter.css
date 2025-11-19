@@ -1,0 +1,107 @@
+@media only screen and (max-width:1440px) {
+    footer {
+        width: 100%;
+        
+    }
+    .footerLogo {
+        width: 100%;
+        height: auto;
+
+    }
+    .footerInfo {
+     display: flex;
+     flex-wrap: wrap;
+     gap: 10px;
+    }
+    .app {
+    gap: 20px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    }
+    .appStore {
+        margin-top: 40px;
+    }
+    
+    .footerSubscribe {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width:1024px){
+    .Discover {
+        display: flex;
+        flex-direction: row;
+    }
+    .discoverCity{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+    }
+    .quickLinks  {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+    }
+    .quickLinks .links {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+
+    }
+    .footerInfo{
+        display: flex;
+        flex-wrap: wrap;
+        gap:1px ;
+
+        }
+
+
+}
+@media only screen and (max-width:768px){
+    .Discover {
+        display: none;
+    }
+    .quickLinks{
+        display: none;
+    }
+    .appStore1 {
+        width: 450px;
+        margin-top: 1px;
+    }
+    .appStore2 {
+        width: 450px;
+        margin-top: 1px;
+    }
+
+
+}
+
+@media only screen and (max-width:480px){
+    .Discover {
+        display: none;
+    }
+    .quickLinks{
+        display: none;
+    }
+    .appStore1 {
+        width: 371px;
+        margin-top: 1px;
+    }
+    .appStore2 {
+        width: 371px;
+        margin-top: 1px;
+    }
+    .allHomeBox{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+
+    }
+}

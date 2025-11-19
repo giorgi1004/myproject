@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    max-width: 1920px;
+    background-color: #f3f3f3;
+    
+    
+}
+.bacgraundImg {
+    background-image: url(/img/trustedbyprofessionals.jpg);
+    width: 100%;
+    height: 856px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -125px;
+    
+}
+header{
+    max-width: 1840px;
+    width: 95%;
+    height: 82.75px;
+    border-radius: 80px;
+    margin: 0 auto;
+    
+}
+.bacgraundtext {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 100px;
+    gap: 25px;
+
+}
+.bacgraundtextN1 {
+    font-size: 60px;
+    width: 600px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+.bacgraundtextN1 span {
+    color: gold;
+}
+.bacgraundtextN2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+
+}
+.bacgraundtextN3 {
+    color: gold;
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+@media only screen and (max-width:480px) {
+    .bacgraundtextN1 {
+        width: 100%;
+    }
+
+}
+

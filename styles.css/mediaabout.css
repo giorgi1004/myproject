@@ -1,0 +1,106 @@
+@media only screen and (max-width:1440px) {
+    .aboutStatsReviewBox {
+        gap: 10px;
+    }
+    .expertsBoxAll {
+        gap: 10px;
+    }
+}
+@media only screen and (max-width:1024px){
+    .aboutSection {
+        display: flex;
+        align-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .aboutCards {
+        display: flex;
+        flex-direction: column;
+    }
+    .aboutStats {
+        width: 95%;
+    }
+    .aboutStatsReviewBox {
+    display: flex;
+    flex-direction: column;
+
+    }
+    .RegisterBoxAll {
+    display: flex;
+    flex-direction: column;
+    }
+    .ExpertsAll {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+    }
+    .expertsBoxAll {
+    display: flex;
+    flex-direction: column;
+
+    }
+    .aboutCards {
+         width: 100%;
+    }
+
+}
+@media only screen and (max-width:768px){
+    .leadingCompanies {
+        width: 90%;
+    }
+    .leadingCompaniesIcon{
+        gap: 40px;
+    }
+    .clientsAboutUsBox {
+        gap: 30px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+
+}
+@media only screen and (max-width:480px) {
+    .Enjoy {
+        font-size: 40px;
+    }
+    .KeyywordSearch{
+     height: 300px;
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+    }
+    .RegisterBox {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    }
+    .leadingCompanies {
+        display: none;
+    }
+    .RegisterBoxAll img {
+        width: 100%;
+    }
+    .ExpertsIcon {
+        width: 100%;
+    }
+    .leadingCompaniesIcon {
+    gap: 9px;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    }
+    .clientsAboutUs{
+        width: 95%;
+    }
+    .clientsAboutUsAll {
+        padding: 10px;
+    }
+
+
+}
+/* *{
+    outline: 4px solid green !important;
+} */
